@@ -1,0 +1,15 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  margin-left: 40px;
+  width: 300px;
+  /*text-decoration: none;*/
+}
+
+span:first-child {
+  margin-left: 0;
+  /*width: 300px;*/
+}

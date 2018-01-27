@@ -1,0 +1,14 @@
+<div class="item" [formGroup]="todoForm">
+  <input
+    type="checkbox"
+    [checked]="todo.done"
+    formControlName="done"
+  >
+
+  <input
+    type="text"
+    formControlName="title"
+  >
+</div>
+
+<button (click)="goBack()">Go Back!</button>

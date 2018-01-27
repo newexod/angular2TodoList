@@ -1,0 +1,20 @@
+ul {
+  /*margin: 0;*/
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid lightblue;
+  background-color: #e5e2e2;
+  text-decoration: none;
+  /*color: white;*/
+}
+
+li.done {
+   opacity: .5;
+}

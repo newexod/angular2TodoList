@@ -1,0 +1,11 @@
+.item {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid lightblue;
+  background-color: #e5e2e2;
+  text-decoration: none;
+}
+
+.item.done {
+  opacity: .5;
+}

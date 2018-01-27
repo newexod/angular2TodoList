@@ -1,0 +1,11 @@
+form {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 90%;
+  padding: 5px;
+}
+button {
+  width: 10%;
+}

@@ -1,0 +1,12 @@
+<ul class="list">
+  <li
+    *ngFor="let todo of todos; let i = index"
+    [class.done]="todo.done"
+  >
+    <todo-item
+      [todo]="todo"
+      (onChangedDeleteItem)="deleteItem($event)"
+      (onChangedEditItem)="editItem($event)"
+    ></todo-item>
+  </li>
+</ul>

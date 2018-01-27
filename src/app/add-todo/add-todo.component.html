@@ -1,0 +1,5 @@
+<form>
+  <input #inputValue name="clearVal" [(ngModel)]="clearVal">
+  <button (click)="addItem($event, inputValue.value)">add</button>
+  {{ dateOfCreation | date }}
+</form>

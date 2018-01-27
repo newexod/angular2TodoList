@@ -1,0 +1,25 @@
+<!--<div class="item" [formGroup]="todoForm">-->
+  <!--<input-->
+    <!--type="checkbox"-->
+    <!--[checked]="todo.done"-->
+    <!--formControlName="done"-->
+  <!--&gt;-->
+
+  <!--<input-->
+    <!--type="text"-->
+    <!--formControlName="title"-->
+    <!--(blur)="editItem()"-->
+  <!--&gt;-->
+<div class="item">
+  <span>{{todo.title}}</span>
+
+  <button (click)="editItem(todo)">edit</button>
+
+  <button (click)="deleteItem(todo)">X</button>
+
+  <span>Дата Создания: {{todo.dateOfCreation | date:'yyyy-MM-dd HH:mm:ss'}}</span>
+  <span>Дата Редактирования: {{todo.dateOfEditing | date:'yyyy-MM-dd HH:mm:ss'}}</span>
+  <span>Дата Выполнения: {{todo.dateOfPerformance | date:'yyyy-MM-dd HH:mm:ss'}}</span>
+</div>
+<!--</div>-->
+

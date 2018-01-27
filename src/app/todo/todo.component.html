@@ -1,0 +1,7 @@
+<add-todo (onAddItem)="onAddItem($event)"></add-todo>
+<todo-list
+  [todos]="todos"
+  (onChangedDeleteItem)="onChangedDeleteItem($event, i)"
+  (onChangedEditItem)="onChangedEditItem($event, i)"
+></todo-list>
+
